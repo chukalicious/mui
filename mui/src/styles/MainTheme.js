@@ -20,10 +20,25 @@ export const mainTheme = createTheme({
     },
   },
   typography: {
-    fontFamily: "'Fraunces', serif, 'Barlow', sans-serif",
     fontSize: 18,
-    fontWeightLight: 600,
-    fontWeightMedium: 700,
-    fontWeightBold: 900,
+    fontWeightRegular: 600,
+    h1: {
+      fontFamily: "Fraunces",
+      fontSize: "29rem",
+      fontWeight: 80,
+    },
+    body1: {
+      fontFamily: "Fraunces",
+      fontSize: 19,
+      fontWeight: 700,
+    },
+    h2: {
+      fontFamily: "Fraunces",
+      fontWeight: 700,
+    },
+    h3: {
+      fontFamily: "Fraunces",
+    },
+    fontFamily: "Barlow",
   },
 });
