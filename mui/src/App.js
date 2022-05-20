@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Landing from "./components/Landing";
 import Footer from "./components/Footer";
 import { ThemeProvider } from "@mui/material/styles";
@@ -12,6 +13,7 @@ function App() {
     <ThemeProvider theme={mainTheme}>
       <Box sx={{ bgcolor: "primary.main" }}>
         <Navbar />
+        <Header />
         <Landing />
         <Footer />
       </Box>
