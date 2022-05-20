@@ -3,11 +3,18 @@ import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 
 const Footer = () => {
+  const linkProps = {
+    variant: "subtitle2",
+    underline: "hover",
+    color: "secondary",
+  };
   return (
-    <Box>
+    <Box sx={{ bgcolor: "warning.main" }}>
       <Box>
-        <Typography variant="subtitle2">
-          <Link>This</Link> <Link>is my foot,</Link> <Link>smell it!</Link>
+        <Typography>
+          <Link {...linkProps}>This</Link>{" "}
+          <Link {...linkProps}>is my foot,</Link>{" "}
+          <Link {...linkProps}>smell it!</Link>
         </Typography>
       </Box>
       <Box>Icons area</Box>

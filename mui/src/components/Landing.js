@@ -8,9 +8,14 @@ import imageCone from "../images/imageCone.jpg";
 
 import ActionButton from "./ActionButton";
 
+const paperStyles = {
+  padding: "1rem",
+  width: "100%",
+};
+
 const Landing = () => {
   return (
-    <Container>
+    <Container style={paperStyles}>
       <Box>
         <ImageList>
           <ImageListItem cols={2}>
@@ -19,7 +24,7 @@ const Landing = () => {
         </ImageList>
       </Box>
       <Box>
-        <Paper elevation={3}>
+        <Paper style={{ padding: "1rem" }} elevation={3}>
           <Typography variant="body1">This is my box, fuck it</Typography>
         </Paper>
       </Box>

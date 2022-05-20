@@ -8,8 +8,8 @@ import HamburgerMenu from "./HamburgerMenu";
 const Navbar = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar>
+      <AppBar elevation={0} position="static">
+        <Toolbar style={{ color: "white" }}>
           <Title />
           <HamburgerMenu />
         </Toolbar>
