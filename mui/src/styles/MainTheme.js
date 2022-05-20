@@ -28,13 +28,14 @@ export const mainTheme = createTheme({
       fontWeight: 80,
     },
     body1: {
-      fontFamily: "Fraunces",
-      fontSize: 19,
-      fontWeight: 700,
+      fontFamily: "Barlow",
+      fontSize: 18,
+      fontWeight: 600,
     },
     h2: {
       fontFamily: "Fraunces",
       fontWeight: 700,
+      fontSize: 26,
     },
     h3: {
       fontFamily: "Fraunces",
