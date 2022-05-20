@@ -13,4 +13,4 @@ A main theme has been created. So far only the palette variables have been chang
 
 
 ### ClassNames:
-So far I have not been able to successfully create and apply classes. 
+The way individual "classes", if you will, are created as objects in separate style modules that contain the styles to be applied to the component/element via the sx props. Therefore, the syntax for these styles has to be in complience with the sx API. 
