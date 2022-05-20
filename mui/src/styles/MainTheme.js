@@ -24,8 +24,8 @@ export const mainTheme = createTheme({
     fontWeightRegular: 600,
     h1: {
       fontFamily: "Fraunces",
-      fontSize: "29rem",
-      fontWeight: 80,
+      fontSize: "2.5rem",
+      fontWeight: 800,
     },
     body1: {
       fontFamily: "Barlow",
