@@ -1,5 +1,6 @@
 export const h1Class = {
-  color: "#f1f1f1",
+  color: "#f0f0f0",
   textTransform: "uppercase",
   textAlign: "center",
+  letterSpacing: ".28rem",
 };
