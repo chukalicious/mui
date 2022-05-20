@@ -5,6 +5,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import imageCone from "../images/imageCone.jpg";
+import Link from "@mui/material/Link";
 
 import ActionButton from "./ActionButton";
 
@@ -25,10 +26,26 @@ const Landing = () => {
       </Box>
       <Box>
         <Paper style={{ padding: "1rem" }} elevation={3}>
-          <Typography variant="body1">This is my box, fuck it</Typography>
+          <Typography variant="h2" sx={{ textAlign: "center", m: 1 }}>
+            Transform your brand
+          </Typography>
+          <Typography variant="body1" sx={{ textAlign: "center", m: 1 }}>
+            We area full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+            <Typography sx={{ fontFamily: "Fraunces" }}>
+              {" "}
+              <Link color="primary">Learn More</Link>
+            </Typography>
+          </Typography>
         </Paper>
       </Box>
-      <Box>
+      <Box
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
         <ActionButton />
       </Box>
     </Container>
