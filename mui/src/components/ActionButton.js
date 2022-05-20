@@ -5,10 +5,15 @@ const ActionButton = () => {
     <Button
       sx={{ fontFamily: "'Fraunces', serif" }}
       color="secondary"
-      style={{ marginTop: "1rem" }}
+      style={{
+        marginTop: "1rem",
+        borderRadius: "2rem",
+        padding: ".5rem 1.75rem",
+        fontSize: "1.2rem",
+      }}
       variant="contained"
     >
-      Click my clit!
+      Contact
     </Button>
   );
 };
