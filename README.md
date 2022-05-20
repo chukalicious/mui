@@ -8,6 +8,6 @@ I've done the basic boiler plating for:
 
 ## Styles
 
-### Main Theme 
+### Main Theme: 
 A main theme has been created. So far only the palette variables have been changed. The name of the theme is Main Theme and it's serving at the App.js level.
 
