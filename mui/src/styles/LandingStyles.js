@@ -1,10 +1,9 @@
 export const paperStyles = {
-  pt: 1,
-  pb: 1,
-  pl: 0,
-  pr: 0,
-  mr: 0,
-  mt: 0,
+  pt: 6,
+  pb: 6,
+  pl: 3,
+  pr: 3,
+  // mt: 0,
   borderRadius: 0,
 };
 
@@ -17,4 +16,7 @@ export const landingLayout = {
 export const paperBox = {
   width: "100%",
   mb: 6,
+  border: "red 3px solid",
+
+  minHeight: "50vh",
 };

@@ -4,8 +4,11 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import imageCone from "../images/imageCone.jpg";
 import Link from "@mui/material/Link";
+
+//image imports
+import imageCone from "../images/imageCone.jpg";
+import imageTransform from "../images/mobile/imageTransform.jpg";
 
 // Style Imports
 import { landingLayout, paperStyles, paperBox } from "../styles/LandingStyles";
@@ -19,14 +22,11 @@ const Landing = () => {
       <Box sx={{ ...landingLayout }}>
         <ImageList>
           <ImageListItem cols={2}>
-            <img src={imageCone} alt="icecream cone" />
+            <img src={imageTransform} alt="egg" />
           </ImageListItem>
         </ImageList>
       </Box>
-      <Box
-        // style={{ border: "green 1px solid", width: "100%" }}
-        sx={{ ...paperBox }}
-      >
+      <Box sx={{ ...paperBox }}>
         <Paper sx={{ ...landingLayout, ...paperStyles }} elevation={0}>
           <Typography variant="h2" sx={{ textAlign: "center", m: 1 }}>
             Transform your brand
@@ -42,6 +42,14 @@ const Landing = () => {
           </Typography>
         </Paper>
       </Box>
+      <Box sx={{ ...landingLayout }}>
+        <ImageList>
+          <ImageListItem cols={2}>
+            <img src={imageCone} alt="icecream cone" />
+          </ImageListItem>
+        </ImageList>
+      </Box>
+
       <Box
         style={{
           display: "flex",
