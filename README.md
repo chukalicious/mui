@@ -6,6 +6,8 @@ I've done the basic boiler plating for:
 - imported Roboto
 - wrapped App in ThemeProvider
 
-## Main Theme 
+## Styles
+
+### Main Theme 
 A main theme has been created. So far only the palette variables have been changed. The name of the theme is Main Theme and it's serving at the App.js level.
 
