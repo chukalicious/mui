@@ -1,4 +1,4 @@
-import Container from "@mui/material/Container";
+// mui Library imports
 import Box from "@mui/material/Box";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
@@ -7,25 +7,27 @@ import Typography from "@mui/material/Typography";
 import imageCone from "../images/imageCone.jpg";
 import Link from "@mui/material/Link";
 
-import ActionButton from "./ActionButton";
+// Style Imports
+import { landingLayout, paperStyles, paperBox } from "../styles/LandingStyles";
 
-const paperStyles = {
-  padding: "1rem",
-  width: "100%",
-};
+//Component Imports
+import ActionButton from "./ActionButton";
 
 const Landing = () => {
   return (
-    <Container style={paperStyles}>
-      <Box>
+    <Box>
+      <Box sx={{ ...landingLayout }}>
         <ImageList>
           <ImageListItem cols={2}>
-            <img src={imageCone} alt="cone" />
+            <img src={imageCone} alt="icecream cone" />
           </ImageListItem>
         </ImageList>
       </Box>
-      <Box>
-        <Paper style={{ padding: "1rem" }} elevation={3}>
+      <Box
+        // style={{ border: "green 1px solid", width: "100%" }}
+        sx={{ ...paperBox }}
+      >
+        <Paper sx={{ ...landingLayout, ...paperStyles }} elevation={0}>
           <Typography variant="h2" sx={{ textAlign: "center", m: 1 }}>
             Transform your brand
           </Typography>
@@ -48,7 +50,7 @@ const Landing = () => {
       >
         <ActionButton />
       </Box>
-    </Container>
+    </Box>
   );
 };
 
