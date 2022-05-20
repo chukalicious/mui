@@ -1,4 +1,4 @@
-# Front End Tutor using Material UI
+# Front End Tutor challenge using Material UI
 This is practice with a fresh clean material ui app. 
 I've done the basic boiler plating for:
 - dependency installation
