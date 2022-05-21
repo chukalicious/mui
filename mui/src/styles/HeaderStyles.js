@@ -3,6 +3,8 @@ export const h1Class = {
   textTransform: "uppercase",
   textAlign: "center",
   letterSpacing: ".28rem",
+  mt: 5,
+  mb: 5,
 };
 
 // style for Box with centered content
