@@ -60,3 +60,8 @@ export const pLink = {
     textDecorationColor: "secondary",
   },
 };
+
+export const body1Style = {
+  textAlign: "center",
+  m: 1,
+};

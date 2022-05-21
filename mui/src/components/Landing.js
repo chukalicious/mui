@@ -19,6 +19,7 @@ import {
   imgList,
   imageListItem,
   pLink,
+  body1Style,
 } from "../styles/LandingStyles";
 
 //Component Imports
@@ -39,7 +40,7 @@ const Landing = () => {
           <Box sx={{ ...paperBox }}>
             <Paper sx={{ ...landingLayout, ...paperStyles }} elevation={0}>
               <Typography variant="h2">Transform your brand</Typography>
-              <Typography variant="body1" sx={{ textAlign: "center", m: 1 }}>
+              <Typography variant="body1" sx={{ ...body1Style }}>
                 We are a full-service creative agency specializing in helping
                 brands grow fast. Engage your clients through compelling visuals
                 that do most of the marketing for you.
@@ -64,7 +65,7 @@ const Landing = () => {
             <Typography variant="h2">
               Stand out to the right audience
             </Typography>
-            <Typography variant="body1" sx={{ textAlign: "center", m: 1 }}>
+            <Typography variant="body1" sx={{ ...body1Style }}>
               Using a collaborative formula of designers, researchers,
               photographers, videographers, and copywriters, we'll buid and
               extend your brand in digital places.
@@ -75,14 +76,6 @@ const Landing = () => {
             </Typography>
           </Paper>
         </Box>
-      </Box>
-      <Box
-        style={{
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <ActionButton />
       </Box>
     </Box>
   );
