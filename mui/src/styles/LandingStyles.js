@@ -9,15 +9,14 @@ export const paperStyles = {
 
 export const landingLayout = {
   width: "100%",
-  mt: -2,
-  mb: -2,
+  // border: "blue dashed 3px",
 };
 
 export const paperBox = {
   width: "100%",
   mb: 6,
   // 16px for mb
-  border: "red 3px solid",
+  // border: "red 3px solid",
   mt: 1,
   display: "flex",
   flexiDirection: "column",
