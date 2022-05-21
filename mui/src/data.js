@@ -1,10 +1,37 @@
-// import imageEmily from "../public/publicImages/imageEmily.jpg";
+import imageEmily from "./images/imageEmily.jpg";
 import imageJennie from "./images/imageJennie.jpg";
 import imageThomas from "./images/imageThomas.jpg";
 
+export const copyData = [
+  {
+    h2: "Transform your brand",
+    body:
+      "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
+    link: "Learn more",
+  },
+  {
+    h2: "Stand out to the right audience",
+    body:
+      "Using a collaborative formula of designers, researchers,photographers, videographers, and copywrit we'll buid and extend your brand in digital places. ",
+    link: "Learn more",
+  },
+  {
+    h2: "Graphic Design",
+    body:
+      "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention ",
+    link: "",
+  },
+  {
+    h2: "Photography",
+    body:
+      "Uncrease your credibility by getting the most stunning, high-quality photos that improve your business image. ",
+    link: "",
+  },
+];
+
 export const testimonialData = [
   {
-    thumb: "../public/publicImages/imageEmily.jpg",
+    thumb: ".images/imageEmily.jpg",
     name: "Emily R.",
     title: "Marketing Director",
     text:

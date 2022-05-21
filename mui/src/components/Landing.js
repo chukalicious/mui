@@ -8,6 +8,7 @@ import Link from "@mui/material/Link";
 
 // Data import
 import { testimonialData as testimonials } from "../data";
+import { copyData as copy } from "../data";
 
 //image imports
 import imageTransform from "../images/mobile/imageTransform.jpg";
