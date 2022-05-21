@@ -16,7 +16,10 @@ export const landingLayout = {
 export const paperBox = {
   width: "100%",
   mb: 6,
+  // 16px for mb
   border: "red 3px solid",
-
+  mt: 1,
+  display: "flex",
+  flexiDirection: "column",
   minHeight: "50vh",
 };

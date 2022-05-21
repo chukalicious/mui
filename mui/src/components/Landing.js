@@ -18,10 +18,16 @@ import ActionButton from "./ActionButton";
 
 const Landing = () => {
   return (
-    <Box>
+    <Box sx={{ mb: -1 }}>
       <Box sx={{ ...landingLayout }}>
-        <ImageList>
-          <ImageListItem cols={2}>
+        <ImageList sx={{ p: 0, mb: "-.5rem", mt: 0 }}>
+          <ImageListItem
+            sx={{
+              // border: "green solid 3px",
+              m: 0,
+            }}
+            cols={2}
+          >
             <img src={imageTransform} alt="egg" />
           </ImageListItem>
         </ImageList>
