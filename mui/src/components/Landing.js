@@ -6,6 +6,9 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 
+// Data import
+import { testimonialData as testimonials } from "../data";
+
 //image imports
 import imageTransform from "../images/mobile/imageTransform.jpg";
 import imageStandOut from "../images/mobile/imageStandOut.jpg";
@@ -25,6 +28,7 @@ import {
 //Component Imports
 
 const Landing = () => {
+  console.log(testimonials);
   return (
     <Box>
       <Box sx={{ mb: -1 }}>
