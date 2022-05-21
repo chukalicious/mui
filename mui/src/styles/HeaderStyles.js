@@ -4,3 +4,9 @@ export const h1Class = {
   textAlign: "center",
   letterSpacing: ".28rem",
 };
+
+// style for Box with centered content
+export const centeredBox = {
+  display: "flex",
+  justifyContent: "center",
+};
