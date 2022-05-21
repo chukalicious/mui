@@ -11,7 +11,7 @@ import { styled } from "@mui/material/styles";
 function App() {
   return (
     <ThemeProvider theme={mainTheme}>
-      <Box sx={{ bgcolor: "primary.main" }}>
+      <Box>
         <Navbar />
         <Header />
         <Landing />
