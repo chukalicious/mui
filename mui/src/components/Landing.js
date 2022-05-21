@@ -7,8 +7,8 @@ import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 
 //image imports
-import imageCone from "../images/imageCone.jpg";
 import imageTransform from "../images/mobile/imageTransform.jpg";
+import imageStandOut from "../images/mobile/imageStandOut.jpg";
 
 // Style Imports
 import {
@@ -23,7 +23,6 @@ import {
 } from "../styles/LandingStyles";
 
 //Component Imports
-import ActionButton from "./ActionButton";
 
 const Landing = () => {
   return (
@@ -56,7 +55,7 @@ const Landing = () => {
         <Box sx={{ ...landingLayout }}>
           <ImageList sx={{ ...imgList }}>
             <ImageListItem cols={2}>
-              <img src={imageCone} alt="icecream cone" />
+              <img src={imageStandOut} alt="standout" />
             </ImageListItem>
           </ImageList>
         </Box>
